@@ -1,0 +1,154 @@
+.color-blue{
+    color: #0099CC;
+}
+
+#title-land-page {
+    font-weight: 400;
+}
+
+.list-inline {
+    list-style: none;
+}
+
+.list-social-links {
+    font-size: 48px;
+}
+
+.list-inline-item {
+    display: inline-block;
+}
+
+.anchor-social-links {
+   color: inherit;
+}
+
+.text-description-landing {
+    font-family:  "Lato", serif;
+    letter-spacing: -.003em;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 27px;
+    line-height: 1.58;
+}
+
+.text-article {
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23px;
+    line-height: 1.58;
+}
+
+.contact-info {
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 27px;
+}
+
+.text-left{
+    text-align: left;
+    text-justify: inter-word;
+}
+
+
+.jumbotron{
+    background-color: #FFFFFF!important;
+}
+
+
+.hr-section {
+    width: 400px;
+    border-top: 1px solid #0099CC;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    max-width: 70%;
+    margin-bottom: 2em;
+}
+
+.section-title {
+     text-align: center;
+     font-weight: 400;
+     color: #0099CC;
+     margin-bottom: 1em;
+}
+
+.thumbnail-size {
+    height: 225;
+    width: 100%;
+}
+
+
+.modal-full {
+    min-width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.video-group {
+    position: relative;
+    width: 100%;
+    height: 0px;
+    padding-bottom: 56.25%;
+}
+
+.iframe-video {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%
+}
+
+.figure-group {
+    margin: 2rem auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.card {
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 40px;
+}
+
+.img-card-container {
+    width: 18rem;
+    overflow: hidden;
+    height: auto;
+    display: block;
+    max-height: 12rem;
+}
+
+.card-project-title {
+    color: #0099CC;
+    font-weight: 700;
+}
+
+.project-title {
+    color: #0099CC;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.text-secondary {
+    color:#008000;
+    text-align:left;
+}
+
+.secondary-title {
+    color:#008000;
+}
+
+.CV-text {
+    margin-left: 6px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+ul li span { 
+    width: 0px !important;
+}
