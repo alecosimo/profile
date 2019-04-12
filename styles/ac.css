@@ -114,7 +114,7 @@
 }
 
 .img-card-container {
-    width: 18rem;
+    width: 16rem;
     overflow: hidden;
     height: auto;
     display: block;
@@ -143,12 +143,13 @@
     color:#008000;
 }
 
-.CV-text {
-    margin-left: 6px;
-    margin-top: 20px;
-    font-size: 20px;
-}
+@media (max-width: 978px) {
+    .container {
+      padding:2vmin;
+      margin:0;
+    }
 
-ul li span { 
-    width: 0px !important;
+    body {
+      padding:0;
+    }
 }
