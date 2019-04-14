@@ -100,6 +100,10 @@
      margin-bottom: 1em;
 }
 
+.row-section {
+    margin-top: 30px;
+}
+
 .thumbnail-size {
     height: 225;
     width: 100%;
@@ -169,6 +173,9 @@
 
 .secondary-title {
     color:#008000;
+    margin-top: 15px;
+    font-size: 27px !important;
+    line-height: 1 !important;
 }
 
 /* @media (max-width: 978px) { */

@@ -7,17 +7,39 @@
 	"id": "1"
     },
     {
-	"title": "Additive manufacturing",
-	"description": "Thermo-Microstructural simulation of the additive manufacturing process",
-	"image": "weldingTM.png",
+	"title": "Thermo-Mechanical simulation of welding",
+	"description": "Thermo-mechanical simulation of welded joints present in nuclear power plants",
+	"image": "equivalentPlastic.png",
 	"name":  "welding2.html",
 	"id": "2"
     },
     {
-	"title": "Additive manufacturing",
-	"description": "Thermo-Microstructural simulation of the additive manufacturing process",
-	"image": "weldingTM.png",
-	"name":  "welding3.html",
+	"title": "Parallel FEM",
+	"description": "Parallel implementation of a FE code targeting distributed shared memory architectures",
+	"image": "threadingH.png",
+	"name":  "parallelFEM.html",
 	"id": "3"
+    },
+    {
+	"title": "FEM enriched formulations",
+	"description": "FEM enriched formulations for solid/liquid phase change problems",
+	"image": "enrichmentFunction.png",
+	"name":  "enrichment.html",
+	"id": "4"
+    },
+    {
+	"title": "Gappy-based hyper-reduction methodology",
+	"description": "A Gappy data reconstruction based hyper-reduction methodology is proposed for highly non-linear problems",
+	"image": "hrom0.png",
+	"name":  "hrom0.html",
+	"id": "5"
+    },
+    {
+	"title": "The FETI domain decomposition method",
+	"description": "The parallel versatile implementation of the FETI domain decomposition method is studied",
+	"image": "ddm.png",
+	"name":  "feti.html",
+	"id": "6"
     }
 ]
+
