@@ -1,3 +1,32 @@
+.inline-link-item {
+    display: inline-block;
+    margin-left:10px;
+    padding:0;
+}
+
+.list-prev-links {
+    font-size: 30px;
+    margin:0;
+    padding:0;
+
+}
+
+.brand-img-navbar {
+    width: 45px;
+    height: 45px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+}
+
+
+.bg-color {
+    background-color: rgba(76,175,80,1) !important;
+}
+
 .color-blue{
     color: #0099CC;
 }
@@ -127,12 +156,13 @@
 }
 
 .project-title {
+    font-family: "Crimson Text", serif;
     color: #0099CC;
     font-weight: 700;
-    font-size: 30px;
-    text-align: center;
+    font-size: 42px;
+    text-align: left;
+    margin-bottom: 20px;
 }
-
 
 .text-secondary {
     color:#008000;
@@ -143,13 +173,13 @@
     color:#008000;
 }
 
-@media (max-width: 978px) {
-    .container {
-      padding:2vmin;
-      margin:0;
-    }
+/* @media (max-width: 978px) { */
+/*     .container { */
+/*       padding:2vmin; */
+/*       margin:0; */
+/*     } */
 
-    body {
-      padding:0;
-    }
-}
+/*     body { */
+/*       padding:0; */
+/*     } */
+/* } */

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<% include partials/head %>
+    </head>
+
+    <body>
+	<!-- Landpage: HOME -->
+      <div class="jumbotron">
+          <div class="container text-center">
+	      <img style="width:15rem;height:auto;margin-right:20px;margin-bottom:20px;"
+		   src="public/images/alex-snow.jpeg" class="rounded-circle" alt="Alejandro Cosimo">
+	      
+	      <h1 class="display-4 color-blue" id="title-land-page">Alejandro Cosimo</h1>
+
+	      <ul class="list-social-links list-inline">
+		  <li class="list-inline-item"><a class="anchor-social-links" href="https://github.com/alecosimo"><i class="fab fa-github-square"></i></a></li>
+		  <li class="list-inline-item"><a class="anchor-social-links" href="https://www.linkedin.com/in/alejandro-cosimo/"><i class="fab fa-linkedin"></i></a></li>
+		  <li class="list-inline-item"><a class="anchor-social-links" href="https://www.youtube.com/user/alecosimo01/videos"><i class="fab fa-youtube-square"></i></a></li>
+		  <li class="list-inline-item"><a class="anchor-social-links" title="Download CV" href="https://github.com/alecosimo/profile/raw/gh-pages/articles/CV_cosimo.pdf"><i class="fas fa-address-card"></i></a></li>
+              </ul>
+
+	      <p class="text-description-landing text-left">I'm a Software Engineer with a PhD. in Computational
+		  Mechanics. The strongest asset that I have to offer is the passion for
+		  the things I do. I feel really passionate for the development and
+		  implementation of numerical methods targeting the simulation of
+		  physical systems.
+	      </p>
+
+          </div>
+      </div>
+      
+      <div class="container" id="projects">
+	  <h1 class="display-4 section-title">Projects</h1>
+
+	  <div class="row" style="display:flex; flex-wrap: wrap;">
+
+	      <% articles.forEach( article => { %>
+		  <div class="col-md-6 col-sm-12 col-lg-4">
+		      <div class="card" style="width: 18rem;">
+			  <div class="img-card-container">
+			      <img class="card-img-top" src="public/images/<%=article.image%>" alt="<%=article.title%>" >
+			  </div>
+			  <div class="card-body">
+			      <h5 class="card-title card-project-title"><%=article.title%></h5>
+			      <p class="card-text"><%=article.description%></p>
+			      <button type="button" class="btn btn-primary" onclick="window.location.href='<%=article.name%>'">Details</button>
+			  </div>
+		      </div>
+		  </div>
+	      <% }); %>
+		  
+	  </div>
+
+      </div>
+
+      <!-- footer -->
+      <% include partials/footer %>
+      <% include partials/footer-js %>
+ 
+    </body>
+
+</html>

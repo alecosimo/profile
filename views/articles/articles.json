@@ -3,25 +3,21 @@
 	"title": "Additive manufacturing",
 	"description": "Thermo-Microstructural simulation of the additive manufacturing process",
 	"image": "weldingTM.png",
-	"body":  "welding.html"
+	"name":  "welding.html",
+	"id": "1"
     },
     {
 	"title": "Additive manufacturing",
 	"description": "Thermo-Microstructural simulation of the additive manufacturing process",
 	"image": "weldingTM.png",
-	"body":  "welding.html"
+	"name":  "welding2.html",
+	"id": "2"
     },
     {
 	"title": "Additive manufacturing",
 	"description": "Thermo-Microstructural simulation of the additive manufacturing process",
 	"image": "weldingTM.png",
-	"body":  "welding.html"
-    },
-    {
-	"title": "Additive manufacturing",
-	"description": "Thermo-Microstructural simulation of the additive manufacturing process",
-	"image": "weldingTM.png",
-	"body":  "welding.html"
+	"name":  "welding3.html",
+	"id": "3"
     }
-
 ]
