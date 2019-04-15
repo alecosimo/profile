@@ -33,18 +33,35 @@
       <div class="container" id="projects">
 	  <h1 class="display-4 section-title">Projects</h1>
 
+	  <p class="text-description-landing text-left">
+	      In what follows, you will be able to find a brief
+	      description of the main projects in which I have been
+	      involved. The ideas that I present in these projects
+	      were almost entirely coded by me. I was/am involved in
+	      the development of a large Finite Element code written
+	      in C++. Unfortunately, this code is a proprietary
+	      software and I can not share the code I
+	      wrote. Nonetheless, if you want to take an idea of my
+	      coding abilities, you can have a look to the code found
+	      in my github that I wrote for experimenting with FETI
+	      solvers (a family of linear equations solvers targeting
+	      distributed systems). This code is written in C, because
+	      I have implemented the FETI solvers as extensions to the
+	      high performance library PETSc which is written in C.
+	  </p>
+	  
 	  <div class="row" style="display:flex; flex-wrap: wrap;">
 
 	      <% articles.forEach( article => { %>
 		  <div class="col-md-6 col-sm-12 col-lg-4">
 		      <div class="card" style="width: 18rem;">
-			  <div class="img-card-container">
-			      <img class="card-img-top" src="public/images/<%=article.image%>" alt="<%=article.title%>" >
+			  <div class="img-card-container mx-auto">
+			      <img class="card-img-top" src="public/images/<%-article.image%>" alt="<%-article.title%>" >
 			  </div>
 			  <div class="card-body">
-			      <h5 class="card-title card-project-title"><%=article.title%></h5>
-			      <p class="card-text"><%=article.description%></p>
-			      <button type="button" class="btn btn-primary" onclick="window.location.href='<%=article.name%>'">Details</button>
+			      <h5 class="card-title card-project-title"><%-article.title%></h5>
+			      <p class="card-text"><%-article.description%></p>
+			      <button type="button" class="btn btn-primary" onclick="window.location.href='<%-article.name%>'">Details</button>
 			  </div>
 		      </div>
 		  </div>

@@ -3,7 +3,6 @@
     <head>
 		<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
 	<title>Alejandro Cosimo's profile</title>
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -45,12 +44,81 @@
       <div class="container" id="projects">
 	  <h1 class="display-4 section-title">Projects</h1>
 
+	  <p class="text-description-landing text-left">
+	      In what follows, you will be able to find a brief
+	      description of the main projects in which I have been
+	      involved. The ideas that I present in these projects
+	      were almost entirely coded by me. I was/am involved in
+	      the development of a large Finite Element code written
+	      in C++. Unfortunately, this code is a proprietary
+	      software and I can not share the code I
+	      wrote. Nonetheless, if you want to take an idea of my
+	      coding abilities, you can have a look to the code found
+	      in my github that I wrote for experimenting with FETI
+	      solvers (a family of linear equations solvers targeting
+	      distributed systems). This code is written in C, because
+	      I have implemented the FETI solvers as extensions to the
+	      high performance library PETSc which is written in C.
+	  </p>
+	  
 	  <div class="row" style="display:flex; flex-wrap: wrap;">
 
 	      
 		  <div class="col-md-6 col-sm-12 col-lg-4">
 		      <div class="card" style="width: 18rem;">
-			  <div class="img-card-container">
+			  <div class="img-card-container mx-auto">
+			      <img class="card-img-top" src="public/images/cubeSolver.png" alt="A robust nonsmooth generalized-&alpha; scheme" >
+			  </div>
+			  <div class="card-body">
+			      <h5 class="card-title card-project-title">A robust nonsmooth generalized-&alpha; scheme</h5>
+			      <p class="card-text">A decoupled formulation of the non-smooth generalized-&alpha; scheme is proposed</p>
+			      <button type="button" class="btn btn-primary" onclick="window.location.href='solver.html'">Details</button>
+			  </div>
+		      </div>
+		  </div>
+	      
+		  <div class="col-md-6 col-sm-12 col-lg-4">
+		      <div class="card" style="width: 18rem;">
+			  <div class="img-card-container mx-auto">
+			      <img class="card-img-top" src="public/images/pool.png" alt="Simulation of multi-impact collisions" >
+			  </div>
+			  <div class="card-body">
+			      <h5 class="card-title card-project-title">Simulation of multi-impact collisions</h5>
+			      <p class="card-text">The non-smooth generalized-&alpha; scheme is extended to problems with multi-impact collisions</p>
+			      <button type="button" class="btn btn-primary" onclick="window.location.href='multiImpact.html'">Details</button>
+			  </div>
+		      </div>
+		  </div>
+	      
+		  <div class="col-md-6 col-sm-12 col-lg-4">
+		      <div class="card" style="width: 18rem;">
+			  <div class="img-card-container mx-auto">
+			      <img class="card-img-top" src="public/images/woodpeckerProblem.png" alt="Simulation of the woodpecker toy dynamics" >
+			  </div>
+			  <div class="card-body">
+			      <h5 class="card-title card-project-title">Simulation of the woodpecker toy dynamics</h5>
+			      <p class="card-text">The woodpecker toy is studied using the non-smooth generalized-&alpha; scheme accounting for large rotations, friction and impacts.</p>
+			      <button type="button" class="btn btn-primary" onclick="window.location.href='woodpecker.html'">Details</button>
+			  </div>
+		      </div>
+		  </div>
+	      
+		  <div class="col-md-6 col-sm-12 col-lg-4">
+		      <div class="card" style="width: 18rem;">
+			  <div class="img-card-container mx-auto">
+			      <img class="card-img-top" src="public/images/frictionThumb.png" alt="Nonsmooth frictional contacts in multibody system dynamics" >
+			  </div>
+			  <div class="card-body">
+			      <h5 class="card-title card-project-title">Nonsmooth frictional contacts in multibody system dynamics</h5>
+			      <p class="card-text">The nonsmooth generalized-&alpha; scheme is extended to problems involving friction</p>
+			      <button type="button" class="btn btn-primary" onclick="window.location.href='friction.html'">Details</button>
+			  </div>
+		      </div>
+		  </div>
+	      
+		  <div class="col-md-6 col-sm-12 col-lg-4">
+		      <div class="card" style="width: 18rem;">
+			  <div class="img-card-container mx-auto">
 			      <img class="card-img-top" src="public/images/weldingTM.png" alt="Additive manufacturing" >
 			  </div>
 			  <div class="card-body">
@@ -63,7 +131,7 @@
 	      
 		  <div class="col-md-6 col-sm-12 col-lg-4">
 		      <div class="card" style="width: 18rem;">
-			  <div class="img-card-container">
+			  <div class="img-card-container mx-auto">
 			      <img class="card-img-top" src="public/images/equivalentPlastic.png" alt="Thermo-Mechanical simulation of welding" >
 			  </div>
 			  <div class="card-body">
@@ -76,7 +144,7 @@
 	      
 		  <div class="col-md-6 col-sm-12 col-lg-4">
 		      <div class="card" style="width: 18rem;">
-			  <div class="img-card-container">
+			  <div class="img-card-container mx-auto">
 			      <img class="card-img-top" src="public/images/threadingH.png" alt="Parallel FEM" >
 			  </div>
 			  <div class="card-body">
@@ -89,7 +157,7 @@
 	      
 		  <div class="col-md-6 col-sm-12 col-lg-4">
 		      <div class="card" style="width: 18rem;">
-			  <div class="img-card-container">
+			  <div class="img-card-container mx-auto">
 			      <img class="card-img-top" src="public/images/enrichmentFunction.png" alt="FEM enriched formulations" >
 			  </div>
 			  <div class="card-body">
@@ -102,7 +170,7 @@
 	      
 		  <div class="col-md-6 col-sm-12 col-lg-4">
 		      <div class="card" style="width: 18rem;">
-			  <div class="img-card-container">
+			  <div class="img-card-container mx-auto">
 			      <img class="card-img-top" src="public/images/hrom0.png" alt="Gappy-based hyper-reduction methodology" >
 			  </div>
 			  <div class="card-body">
@@ -115,13 +183,52 @@
 	      
 		  <div class="col-md-6 col-sm-12 col-lg-4">
 		      <div class="card" style="width: 18rem;">
-			  <div class="img-card-container">
-			      <img class="card-img-top" src="public/images/ddm.png" alt="The FETI domain decomposition method" >
+			  <div class="img-card-container mx-auto">
+			      <img class="card-img-top" src="public/images/ddm0.png" alt="The FETI domain decomposition method" >
 			  </div>
 			  <div class="card-body">
 			      <h5 class="card-title card-project-title">The FETI domain decomposition method</h5>
 			      <p class="card-text">The parallel versatile implementation of the FETI domain decomposition method is studied</p>
 			      <button type="button" class="btn btn-primary" onclick="window.location.href='feti.html'">Details</button>
+			  </div>
+		      </div>
+		  </div>
+	      
+		  <div class="col-md-6 col-sm-12 col-lg-4">
+		      <div class="card" style="width: 18rem;">
+			  <div class="img-card-container mx-auto">
+			      <img class="card-img-top" src="public/images/globalLocal0.png" alt="Global-Local method" >
+			  </div>
+			  <div class="card-body">
+			      <h5 class="card-title card-project-title">Global-Local method</h5>
+			      <p class="card-text">A Global-Local formulation is proposed for dealing with problems with concentrated moving sources</p>
+			      <button type="button" class="btn btn-primary" onclick="window.location.href='globalLocal0.html'">Details</button>
+			  </div>
+		      </div>
+		  </div>
+	      
+		  <div class="col-md-6 col-sm-12 col-lg-4">
+		      <div class="card" style="width: 18rem;">
+			  <div class="img-card-container mx-auto">
+			      <img class="card-img-top" src="public/images/slmTemp.png" alt="Selective Laser Melting and the material Global-Local method" >
+			  </div>
+			  <div class="card-body">
+			      <h5 class="card-title card-project-title">Selective Laser Melting and the material Global-Local method</h5>
+			      <p class="card-text">The simulation of the Selective Laser Melting process is studied with a material Global-Local method</p>
+			      <button type="button" class="btn btn-primary" onclick="window.location.href='slm.html'">Details</button>
+			  </div>
+		      </div>
+		  </div>
+	      
+		  <div class="col-md-6 col-sm-12 col-lg-4">
+		      <div class="card" style="width: 18rem;">
+			  <div class="img-card-container mx-auto">
+			      <img class="card-img-top" src="public/images/couplingMecanoStar0.png" alt="FSI coupling of Mecano and Star-CCM+" >
+			  </div>
+			  <div class="card-body">
+			      <h5 class="card-title card-project-title">FSI coupling of Mecano and Star-CCM+</h5>
+			      <p class="card-text">An information solution for coupling Mecano and Star-CCM+ for FSI applications is investigated</p>
+			      <button type="button" class="btn btn-primary" onclick="window.location.href='couplingMecanoStar.html'">Details</button>
 			  </div>
 		      </div>
 		  </div>

@@ -1,5 +1,33 @@
 [
     {
+	"title": "A robust nonsmooth generalized-&alpha; scheme",
+	"description": "A decoupled formulation of the non-smooth generalized-&alpha; scheme is proposed",
+	"image": "cubeSolver.png",
+	"name":  "solver.html",
+	"id": "13"
+    },
+    {
+	"title": "Simulation of multi-impact collisions",
+	"description": "The non-smooth generalized-&alpha; scheme is extended to problems with multi-impact collisions",
+	"image": "pool.png",
+	"name":  "multiImpact.html",
+	"id": "12"
+    },
+    {
+	"title": "Simulation of the woodpecker toy dynamics",
+	"description": "The woodpecker toy is studied using the non-smooth generalized-&alpha; scheme accounting for large rotations, friction and impacts.",
+	"image": "woodpeckerProblem.png",
+	"name":  "woodpecker.html",
+	"id": "11"
+    },
+    {
+	"title": "Nonsmooth frictional contacts in multibody system dynamics",
+	"description": "The nonsmooth generalized-&alpha; scheme is extended to problems involving friction",
+	"image": "frictionThumb.png",
+	"name":  "friction.html",
+	"id": "10"
+    },
+    {
 	"title": "Additive manufacturing",
 	"description": "Thermo-Microstructural simulation of the additive manufacturing process",
 	"image": "weldingTM.png",
@@ -37,9 +65,30 @@
     {
 	"title": "The FETI domain decomposition method",
 	"description": "The parallel versatile implementation of the FETI domain decomposition method is studied",
-	"image": "ddm.png",
+	"image": "ddm0.png",
 	"name":  "feti.html",
 	"id": "6"
+    },
+    {
+	"title": "Global-Local method",
+	"description": "A Global-Local formulation is proposed for dealing with problems with concentrated moving sources",
+	"image": "globalLocal0.png",
+	"name":  "globalLocal0.html",
+	"id": "7"
+    },
+    {
+	"title": "Selective Laser Melting and the material Global-Local method",
+	"description": "The simulation of the Selective Laser Melting process is studied with a material Global-Local method",
+	"image": "slmTemp.png",
+	"name":  "slm.html",
+	"id": "8"
+    },
+    {
+	"title": "FSI coupling of Mecano and Star-CCM+",
+	"description": "An information solution for coupling Mecano and Star-CCM+ for FSI applications is investigated",
+	"image": "couplingMecanoStar0.png",
+	"name":  "couplingMecanoStar.html",
+	"id": "9"
     }
 ]
 

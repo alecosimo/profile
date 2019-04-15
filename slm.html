@@ -4,7 +4,6 @@
     <head>
 		<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
 	<title>Alejandro Cosimo's profile</title>
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -26,8 +25,10 @@
 		</a>
 		<ul class="list-prev-links list-inline">
 		    
-			<li class="inline-link-item"><a class="anchor-social-links" href="welding2.html" title="Previous project"><i class="fas fa-chevron-circle-left"></i></a></li>
+			<li class="inline-link-item"><a class="anchor-social-links" href="globalLocal0.html" title="Previous project"><i class="fas fa-chevron-circle-left"></i></a></li>
 		    
+		    
+		    <li class="inline-link-item"><a class="anchor-social-links" href="couplingMecanoStar.html" title="Next project"><i class="fas fa-chevron-circle-right"></i></a></li>
 		    
 		</ul>
 	    </div>
@@ -37,32 +38,52 @@
 	</div>
 	
 	<!-- article -->
-	<div class="container article-wrapper" id="3">
+	<div class="container article-wrapper" id="8">
 	    <div class="project-title">
-		Additive manufacturing
+		Selective Laser Melting and the material Global-Local method
 	    </div>
 
 	    <div class="container text-center">
     <div class="row">
-	<p class='text-article text-left'>Part of my PhD thesis:
-	    simulation of the microstructure evolution of the additive
-	    manufacturing of a piece using the Titanium alloy Ti6Al4V </p>
+	<p class='text-article text-left'>The
+	simulation of the Selective Laser Melting (SLM) process is studied. I
+	mainly considered the non-linear thermal simulation of the
+	process where the solid/liquid phase change and the
+	consolidation from powder to solid material are
+	considered. The thermal simulation is performed on a moving
+	domain, and the material state is computed on a fixed global
+	mesh. This technique has the advantage of reducing not only
+	the number of degrees of freedom, but also of enabling the
+	application of reduced order models for the moving domain
+	where a set of partial differential equations must be
+	solved. </p>
     </div>
     <div class="row">
 	<div class="col-sm-12 col-md-6">
-	    <p class="text-article secondary-title">Definition of the problem</p>
-	    <img style="box-shadow:none; width: 100%;height:auto;" src="public/images/microEvolProblem.png">
+	    <p class="text-article secondary-title">Simulation results displaying every element</p>
+
+	    <p class="text-article text-left"> Moving domain shown on the right and fixed global mesh shown on the left.</p>
+	    
+	    <div class='video-group'>
+		<iframe class='iframe-video' width='100%' height='' src='https://www.youtube.com/embed/YmAYMAuhkfg' allowfullscreen></iframe>
+	    </div>
 	</div>
 	<div class="col-sm-12 col-md-6">
-	    <p class="text-article secondary-title">Microstructure evolution at the intersection point of lines A and B</p>
-	    <img style="box-shadow:none; width: 100%;height:auto;" src="public/images/microEvolMicro.png">
+	    <p class="text-article secondary-title">Simulation results displaying elements with material in consolidated state</p>
+	    <p class="text-article text-left"> Moving domain shown on the right and fixed global mesh shown on the left.</p>
+	    <div class='video-group'>
+		<iframe class='iframe-video' width='100%' height='' src='https://www.youtube.com/embed/Iedp9u2TQd0' allowfullscreen></iframe>
+	    </div>
 	</div>
     </div>
-    <div>
-	<p class="text-article secondary-title">Temperature evolution</p>
-	<div class='video-group'>
-	    <iframe class='iframe-video' width='100%' height='' src='https://www.youtube.com/embed/HsXBLdD0maE' allowfullscreen></iframe>
-	</div>
+    <div class="row-section">
+	<p class="text-article secondary-title">Reduced order model based on the material Global-Local method</p>
+	<p class="text-article text-left"> Comparison of the high
+	fidelity solution and the one obtained with a hyper reduced
+	order model based on the material global-local method.</p>
+
+	<img style="box-shadow:none; width: 65%;height:auto;" src="public/images/slmHrom.png">
+
     </div>
 </div>
 

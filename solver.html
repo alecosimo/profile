@@ -25,10 +25,8 @@
 		</a>
 		<ul class="list-prev-links list-inline">
 		    
-			<li class="inline-link-item"><a class="anchor-social-links" href="friction.html" title="Previous project"><i class="fas fa-chevron-circle-left"></i></a></li>
 		    
-		    
-		    <li class="inline-link-item"><a class="anchor-social-links" href="welding2.html" title="Next project"><i class="fas fa-chevron-circle-right"></i></a></li>
+		    <li class="inline-link-item"><a class="anchor-social-links" href="multiImpact.html" title="Next project"><i class="fas fa-chevron-circle-right"></i></a></li>
 		    
 		</ul>
 	    </div>
@@ -38,31 +36,57 @@
 	</div>
 	
 	<!-- article -->
-	<div class="container article-wrapper" id="1">
+	<div class="container article-wrapper" id="13">
 	    <div class="project-title">
-		Additive manufacturing
+		A robust nonsmooth generalized-&alpha; scheme
 	    </div>
 
 	    <div class="container text-center">
     <div class="row">
-	<p class='text-article text-left'>Part of my PhD thesis:
-	    simulation of the microstructure evolution of the additive
-	    manufacturing process using the Titanium alloy Ti6Al4V </p>
+	<p class='text-article text-left'>
+	    A robust and accurate time integrator for the dynamic
+	    simulation of multibody systems composed by rigid and/or
+	    flexible bodies subject to contacts and impacts is
+	    proposed. For this purpose, a decoupled version of the
+	    original non-smooth generalized-&alpha; (NSGA) method is
+	    proposed leading to obtain a scheme which is more robust
+	    for problems involving flexible elements and non-linear
+	    bilateral constraints.  In what follows, the results
+	    obtained with the original NSGA are denoted by CS
+	    (Coupled-Solution), whilst the ones obtained with the
+	    proposed extension are denoted by DS (Decoupled-Solution).
+	</p>
     </div>
+
+    <div class="row-section">
+	<p class="text-article secondary-title">Results for a 3D bouncing flexible cube using the proposed solver</p>
+	<div class='video-group'>
+	    <iframe class='iframe-video' width='100%' height='' src='https://www.youtube.com/embed/1qp61pvkOPI' allowfullscreen></iframe>
+	</div>
+    </div>
+
+    
     <div class="row">
 	<div class="col-sm-12 col-md-6">
-	    <p class="text-article secondary-title">Definition of the problem</p>
-	    <img style="box-shadow:none; width: 100%;height:auto;" src="public/images/microEvolProblem.png">
+	    <p class="text-article secondary-title">Average number of iterations for a 3D bouncing flexible cube</p>
+	    <img style="box-shadow:none; width: 100%;height:auto;" src="public/images/bouncingCubeAvg.png">
 	</div>
 	<div class="col-sm-12 col-md-6">
-	    <p class="text-article secondary-title">Microstructure evolution at the intersection point of lines A and B</p>
-	    <img style="box-shadow:none; width: 100%;height:auto;" src="public/images/microEvolMicro.png">
+	    <p class="text-article secondary-title">Maximum number of iterations for a 3D bouncing flexible cube</p>
+	    <img style="box-shadow:none; width: 100%;height:auto;" src="public/images/bouncingCubeMax.png">
 	</div>
     </div>
-    <div class="row-section">
-	<p class="text-article secondary-title">Temperature evolution</p>
-	<div class='video-group'>
-	    <iframe class='iframe-video' width='100%' height='' src='https://www.youtube.com/embed/HsXBLdD0maE' allowfullscreen></iframe>
+
+
+    
+    <div class="row">
+	<div class="col-sm-12 col-md-6">
+	    <p class="text-article secondary-title">Average number of iterations for a bouncing flexible pendulum</p>
+	    <img style="box-shadow:none; width: 100%;height:auto;" src="public/images/bouncingPendulumAvg.png">
+	</div>
+	<div class="col-sm-12 col-md-6">
+	    <p class="text-article secondary-title">Maximum number of iterations for a bouncing flexible pendulum</p>
+	    <img style="box-shadow:none; width: 100%;height:auto;" src="public/images/bouncingPendulumMax.png">
 	</div>
     </div>
 </div>
