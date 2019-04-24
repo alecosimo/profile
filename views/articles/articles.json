@@ -16,7 +16,7 @@
     {
 	"title": "Simulation of the woodpecker toy dynamics",
 	"description": "The woodpecker toy is studied using the non-smooth generalized-&alpha; scheme accounting for large rotations, friction and impacts.",
-	"image": "woodpeckerProblem.png",
+	"image": "woodpeckerRender.png",
 	"name":  "woodpecker.html",
 	"id": "11"
     },
