@@ -1,5 +1,12 @@
 [
     {
+	"title": "Modeling of sliding and rolling friction",
+	"description": "Preliminary results on the modeling of sliding and rolling friction",
+	"image": "rollingFriction.png",
+	"name":  "rollingFriction.html",
+	"id": "14"
+    },
+    {
 	"title": "A robust nonsmooth generalized-&alpha; scheme",
 	"description": "A decoupled formulation of the non-smooth generalized-&alpha; scheme is proposed",
 	"image": "cubeSolver.png",
