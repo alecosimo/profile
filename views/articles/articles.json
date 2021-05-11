@@ -1,101 +1,121 @@
 [
-    {
-	"title": "Modeling of sliding and rolling friction",
-	"description": "Preliminary results on the modeling of sliding and rolling friction",
-	"image": "rollingFriction.png",
-	"name":  "rollingFriction.html",
-	"id": "14"
-    },
-    {
-	"title": "A robust nonsmooth generalized-&alpha; scheme",
-	"description": "A decoupled formulation of the non-smooth generalized-&alpha; scheme is proposed",
-	"image": "cubeSolver.png",
-	"name":  "solver.html",
-	"id": "13"
-    },
-    {
-	"title": "Simulation of multi-impact collisions",
-	"description": "The non-smooth generalized-&alpha; scheme is extended to problems with multi-impact collisions",
-	"image": "pool.png",
-	"name":  "multiImpact.html",
-	"id": "12"
-    },
-    {
-	"title": "Simulation of the woodpecker toy dynamics",
-	"description": "The woodpecker toy is studied using the non-smooth generalized-&alpha; scheme accounting for large rotations, friction and impacts.",
-	"image": "woodpeckerRender.png",
-	"name":  "woodpecker.html",
-	"id": "11"
-    },
-    {
-	"title": "Nonsmooth frictional contacts in multibody system dynamics",
-	"description": "The nonsmooth generalized-&alpha; scheme is extended to problems involving friction",
-	"image": "frictionThumb.png",
-	"name":  "friction.html",
-	"id": "10"
-    },
-    {
-	"title": "Additive manufacturing",
-	"description": "Thermo-Microstructural simulation of the additive manufacturing process",
-	"image": "weldingTM.png",
-	"name":  "welding.html",
-	"id": "1"
-    },
-    {
-	"title": "Thermo-Mechanical simulation of welding",
-	"description": "Thermo-mechanical simulation of welded joints present in nuclear power plants",
-	"image": "equivalentPlastic.png",
-	"name":  "welding2.html",
-	"id": "2"
-    },
-    {
-	"title": "Parallel FEM",
-	"description": "Parallel implementation of a FE code targeting distributed shared memory architectures",
-	"image": "threadingH.png",
-	"name":  "parallelFEM.html",
-	"id": "3"
-    },
-    {
-	"title": "FEM enriched formulations",
-	"description": "FEM enriched formulations for solid/liquid phase change problems",
-	"image": "enrichmentFunction.png",
-	"name":  "enrichment.html",
-	"id": "4"
-    },
-    {
-	"title": "Gappy-based hyper-reduction methodology",
-	"description": "A Gappy data reconstruction based hyper-reduction methodology is proposed for highly non-linear problems",
-	"image": "hrom0.png",
-	"name":  "hrom0.html",
-	"id": "5"
-    },
-    {
-	"title": "The FETI domain decomposition method",
-	"description": "The parallel versatile implementation of the FETI domain decomposition method is studied",
-	"image": "ddm0.png",
-	"name":  "feti.html",
-	"id": "6"
-    },
-    {
-	"title": "Global-Local method",
-	"description": "A Global-Local formulation is proposed for dealing with problems with concentrated moving sources",
-	"image": "globalLocal0.png",
-	"name":  "globalLocal0.html",
-	"id": "7"
-    },
-    {
-	"title": "Selective Laser Melting and the material Global-Local method",
-	"description": "The simulation of the Selective Laser Melting process is studied with a material Global-Local method",
-	"image": "slmTemp.png",
-	"name":  "slm.html",
-	"id": "8"
-    },
-    {
-	"title": "FSI coupling of Mecano and Star-CCM+",
-	"description": "An information solution for coupling Mecano and Star-CCM+ for FSI applications is investigated",
-	"image": "couplingMecanoStar0.png",
-	"name":  "couplingMecanoStar.html",
-	"id": "9"
-    }
+	{
+		"title": "Odin MBS code",
+		"description": "Odin: a research code for the simulation of nonsmooth flexible multibody systems",
+		"image": "odin.png",
+		"name": "odin.html",
+		"id": "15"
+	},
+	{
+		"title": "Contact of flexible beams",
+		"description": "A line contact formulation for flexible beams based on the Mortar method is explored",
+		"image": "twist.jpg",
+		"name": "beam_contact.html",
+		"id": "16"
+	},
+	{
+		"title": "Frictional contact simulations",
+		"description": "The nonsmooth generalized-&alpha; scheme is extended to problems involving friction",
+		"image": "frictional_contact.png",
+		"name": "frictional_contact.html",
+		"id": "17"
+	},
+	{
+		"title": "NSGA with acceleration constraints",
+		"description": "The convenience of using constraints at acceleration level for certain kind of problems is studied",
+		"image": "nsga_acc.png",
+		"name": "nsga_acc.html",
+		"id": "18"
+	},
+	{
+		"title": "Modeling of sliding and rolling friction",
+		"description": "Preliminary results on the modeling of sliding and rolling friction",
+		"image": "rollingFriction.png",
+		"name": "rollingFriction.html",
+		"id": "14"
+	},
+	{
+		"title": "A robust nonsmooth generalized-&alpha; scheme",
+		"description": "A decoupled formulation of the non-smooth generalized-&alpha; scheme is proposed",
+		"image": "cubeSolver.png",
+		"name": "solver.html",
+		"id": "13"
+	},
+	{
+		"title": "Simulation of collisions with multiple impacts",
+		"description": "The non-smooth generalized-&alpha; scheme is extended to problems with multiple impacts",
+		"image": "pool.png",
+		"name": "multiImpact.html",
+		"id": "12"
+	},
+	{
+		"title": "Simulation of the woodpecker toy dynamics",
+		"description": "The woodpecker toy is studied using the non-smooth generalized-&alpha; scheme accounting for large rotations, friction and impacts.",
+		"image": "woodpeckerRender.png",
+		"name": "woodpecker.html",
+		"id": "11"
+	},
+	{
+		"title": "Additive manufacturing",
+		"description": "Thermo-Microstructural simulation of the additive manufacturing process",
+		"image": "weldingTM.png",
+		"name": "welding.html",
+		"id": "1"
+	},
+	{
+		"title": "Thermo-Mechanical simulation of welding",
+		"description": "Thermo-mechanical simulation of welded joints present in nuclear power plants",
+		"image": "equivalentPlastic.png",
+		"name": "welding2.html",
+		"id": "2"
+	},
+	{
+		"title": "Parallel FEM",
+		"description": "Parallel implementation of a FE code targeting distributed shared memory architectures",
+		"image": "threadingH.png",
+		"name": "parallelFEM.html",
+		"id": "3"
+	},
+	{
+		"title": "FEM enriched formulations",
+		"description": "FEM enriched formulations for solid/liquid phase change problems",
+		"image": "enrichmentFunction.png",
+		"name": "enrichment.html",
+		"id": "4"
+	},
+	{
+		"title": "Gappy-based hyper-reduction methodology",
+		"description": "A Gappy data reconstruction based hyper-reduction methodology is proposed for highly non-linear problems",
+		"image": "hrom0.png",
+		"name": "hrom0.html",
+		"id": "5"
+	},
+	{
+		"title": "The FETI domain decomposition method",
+		"description": "The parallel versatile implementation of the FETI domain decomposition method is studied",
+		"image": "ddm0.png",
+		"name": "feti.html",
+		"id": "6"
+	},
+	{
+		"title": "Global-Local method",
+		"description": "A Global-Local formulation is proposed for dealing with problems with concentrated moving sources",
+		"image": "globalLocal0.png",
+		"name": "globalLocal0.html",
+		"id": "7"
+	},
+	{
+		"title": "Selective Laser Melting and the material Global-Local method",
+		"description": "The simulation of the Selective Laser Melting process is studied with a material Global-Local method",
+		"image": "slmTemp.png",
+		"name": "slm.html",
+		"id": "8"
+	},
+	{
+		"title": "FSI coupling of Mecano and Star-CCM+",
+		"description": "An information solution for coupling Mecano and Star-CCM+ for FSI applications is investigated",
+		"image": "couplingMecanoStar0.png",
+		"name": "couplingMecanoStar.html",
+		"id": "9"
+	}
 ]
-

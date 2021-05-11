@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+
+<head>
 		<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>Alejandro Cosimo's profile</title>
@@ -13,256 +14,393 @@
 	<!-- mystyles -->
 	<link href="styles/ac.css" rel="stylesheet">
 
-    </head>
+</head>
 
-    <body>
+<body>
 	<!-- Landpage: HOME -->
-      <div class="jumbotron" style="margin-bottom:0;">
-          <div class="container text-center">
-	      <img style="width:15rem;height:auto;margin-right:20px;margin-bottom:20px;"
-		   src="public/images/alex-snow.jpeg" class="rounded-circle" alt="Alejandro Cosimo">
-	      
-	      <h1 class="display-4 color-blue" id="title-land-page">Alejandro Cosimo</h1>
+	<div class="jumbotron" style="margin-bottom:0;">
+		<div class="container text-center">
+			<img style="width:15rem;height:auto;margin-right:20px;margin-bottom:20px;"
+				src="public/images/alex-snow.jpeg" class="rounded-circle" alt="Alejandro Cosimo">
 
-	      <ul class="list-social-links list-inline">
-		  <li class="list-inline-item"><a class="anchor-social-links" href="https://github.com/alecosimo"><i class="fab fa-github-square"></i></a></li>
-		  <li class="list-inline-item"><a class="anchor-social-links" href="https://www.linkedin.com/in/alejandro-cosimo/"><i class="fab fa-linkedin"></i></a></li>
-		  <li class="list-inline-item"><a class="anchor-social-links" href="https://www.youtube.com/user/alecosimo01/videos"><i class="fab fa-youtube-square"></i></a></li>
-		  <li class="list-inline-item"><a class="anchor-social-links" title="Download CV" href="https://github.com/alecosimo/profile/raw/gh-pages/public/CV_cosimo.pdf"><i class="fas fa-address-card"></i></a></li>
-              </ul>
+			<h1 class="display-4 color-blue" id="title-land-page">Alejandro Cosimo</h1>
 
-	      <p class="text-description-landing text-left">I'm a Software Engineer with a PhD. in Computational
-		  Mechanics. The strongest asset that I have to offer is the passion for
-		  the things I do. I feel really passionate for the development and
-		  implementation of numerical methods targeting the simulation of
-		  physical systems.
-	      </p>
+			<ul class="list-social-links list-inline">
+				<li class="list-inline-item"><a class="anchor-social-links" href="https://github.com/alecosimo"><i
+							class="fab fa-github-square"></i></a></li>
+				<li class="list-inline-item"><a class="anchor-social-links"
+						href="https://www.linkedin.com/in/alejandro-cosimo/"><i class="fab fa-linkedin"></i></a></li>
+				<li class="list-inline-item"><a class="anchor-social-links"
+						href="https://www.youtube.com/user/alecosimo01/videos"><i class="fab fa-youtube-square"></i></a>
+				</li>
+				<li class="list-inline-item"><a class="anchor-social-links" title="Download CV"
+						href="https://github.com/alecosimo/profile/raw/gh-pages/public/CV_cosimo.pdf"><i
+							class="fas fa-address-card"></i></a></li>
+			</ul>
 
-          </div>
-      </div>
-      
-      <div class="container" id="projects">
-	  <h1 class="display-4 section-title">Projects</h1>
+			<p class="text-description-landing text-left">I'm a Software Engineer with a PhD. in Computational
+				Mechanics. The strongest asset that I have to offer is the passion for
+				the things I do. I feel really passionate for the development and
+				implementation of numerical methods targeting the simulation of
+				physical systems.
+			</p>
 
-	  <p class="text-description-secondary text-left">
-	      In what follows, you will find a brief description of
-	      the main projects in which I have been involved. Much of
-	      the ideas that I present were coded almost entirely by
-	      me as extensions of a pre-exiting large Finite Element
-	      code written in C++. Unfortunately, this code is
-	      proprietary software and I can not share the code I
-	      wrote. Nonetheless, if you want to take an idea of my
-	      coding abilities, you can have a look to the code found
-	      in my github account that I wrote for experimenting with
-	      FETI solvers (a family of linear equations solvers
-	      targeting distributed systems).
-	  </p>
-	  
-	  <div class="row" style="display:flex; flex-wrap: wrap; margin-top:8vmin;">
+		</div>
+	</div>
 
-	      
-		  <div class="col-md-6 col-sm-12 col-lg-4">
-		      <div class="card" style="width: 18rem;">
-			  <div class="img-card-container mx-auto">
-			      <img class="card-img-top" src="public/images/rollingFriction.png" alt="Modeling of sliding and rolling friction" >
-			  </div>
-			  <div class="card-body">
-			      <h5 class="card-title card-project-title">Modeling of sliding and rolling friction</h5>
-			      <p class="card-text">Preliminary results on the modeling of sliding and rolling friction</p>
-			      <button type="button" class="btn btn-primary" onclick="window.location.href='rollingFriction.html'">Details</button>
-			  </div>
-		      </div>
-		  </div>
-	      
-		  <div class="col-md-6 col-sm-12 col-lg-4">
-		      <div class="card" style="width: 18rem;">
-			  <div class="img-card-container mx-auto">
-			      <img class="card-img-top" src="public/images/cubeSolver.png" alt="A robust nonsmooth generalized-&alpha; scheme" >
-			  </div>
-			  <div class="card-body">
-			      <h5 class="card-title card-project-title">A robust nonsmooth generalized-&alpha; scheme</h5>
-			      <p class="card-text">A decoupled formulation of the non-smooth generalized-&alpha; scheme is proposed</p>
-			      <button type="button" class="btn btn-primary" onclick="window.location.href='solver.html'">Details</button>
-			  </div>
-		      </div>
-		  </div>
-	      
-		  <div class="col-md-6 col-sm-12 col-lg-4">
-		      <div class="card" style="width: 18rem;">
-			  <div class="img-card-container mx-auto">
-			      <img class="card-img-top" src="public/images/pool.png" alt="Simulation of multi-impact collisions" >
-			  </div>
-			  <div class="card-body">
-			      <h5 class="card-title card-project-title">Simulation of multi-impact collisions</h5>
-			      <p class="card-text">The non-smooth generalized-&alpha; scheme is extended to problems with multi-impact collisions</p>
-			      <button type="button" class="btn btn-primary" onclick="window.location.href='multiImpact.html'">Details</button>
-			  </div>
-		      </div>
-		  </div>
-	      
-		  <div class="col-md-6 col-sm-12 col-lg-4">
-		      <div class="card" style="width: 18rem;">
-			  <div class="img-card-container mx-auto">
-			      <img class="card-img-top" src="public/images/woodpeckerRender.png" alt="Simulation of the woodpecker toy dynamics" >
-			  </div>
-			  <div class="card-body">
-			      <h5 class="card-title card-project-title">Simulation of the woodpecker toy dynamics</h5>
-			      <p class="card-text">The woodpecker toy is studied using the non-smooth generalized-&alpha; scheme accounting for large rotations, friction and impacts.</p>
-			      <button type="button" class="btn btn-primary" onclick="window.location.href='woodpecker.html'">Details</button>
-			  </div>
-		      </div>
-		  </div>
-	      
-		  <div class="col-md-6 col-sm-12 col-lg-4">
-		      <div class="card" style="width: 18rem;">
-			  <div class="img-card-container mx-auto">
-			      <img class="card-img-top" src="public/images/frictionThumb.png" alt="Nonsmooth frictional contacts in multibody system dynamics" >
-			  </div>
-			  <div class="card-body">
-			      <h5 class="card-title card-project-title">Nonsmooth frictional contacts in multibody system dynamics</h5>
-			      <p class="card-text">The nonsmooth generalized-&alpha; scheme is extended to problems involving friction</p>
-			      <button type="button" class="btn btn-primary" onclick="window.location.href='friction.html'">Details</button>
-			  </div>
-		      </div>
-		  </div>
-	      
-		  <div class="col-md-6 col-sm-12 col-lg-4">
-		      <div class="card" style="width: 18rem;">
-			  <div class="img-card-container mx-auto">
-			      <img class="card-img-top" src="public/images/weldingTM.png" alt="Additive manufacturing" >
-			  </div>
-			  <div class="card-body">
-			      <h5 class="card-title card-project-title">Additive manufacturing</h5>
-			      <p class="card-text">Thermo-Microstructural simulation of the additive manufacturing process</p>
-			      <button type="button" class="btn btn-primary" onclick="window.location.href='welding.html'">Details</button>
-			  </div>
-		      </div>
-		  </div>
-	      
-		  <div class="col-md-6 col-sm-12 col-lg-4">
-		      <div class="card" style="width: 18rem;">
-			  <div class="img-card-container mx-auto">
-			      <img class="card-img-top" src="public/images/equivalentPlastic.png" alt="Thermo-Mechanical simulation of welding" >
-			  </div>
-			  <div class="card-body">
-			      <h5 class="card-title card-project-title">Thermo-Mechanical simulation of welding</h5>
-			      <p class="card-text">Thermo-mechanical simulation of welded joints present in nuclear power plants</p>
-			      <button type="button" class="btn btn-primary" onclick="window.location.href='welding2.html'">Details</button>
-			  </div>
-		      </div>
-		  </div>
-	      
-		  <div class="col-md-6 col-sm-12 col-lg-4">
-		      <div class="card" style="width: 18rem;">
-			  <div class="img-card-container mx-auto">
-			      <img class="card-img-top" src="public/images/threadingH.png" alt="Parallel FEM" >
-			  </div>
-			  <div class="card-body">
-			      <h5 class="card-title card-project-title">Parallel FEM</h5>
-			      <p class="card-text">Parallel implementation of a FE code targeting distributed shared memory architectures</p>
-			      <button type="button" class="btn btn-primary" onclick="window.location.href='parallelFEM.html'">Details</button>
-			  </div>
-		      </div>
-		  </div>
-	      
-		  <div class="col-md-6 col-sm-12 col-lg-4">
-		      <div class="card" style="width: 18rem;">
-			  <div class="img-card-container mx-auto">
-			      <img class="card-img-top" src="public/images/enrichmentFunction.png" alt="FEM enriched formulations" >
-			  </div>
-			  <div class="card-body">
-			      <h5 class="card-title card-project-title">FEM enriched formulations</h5>
-			      <p class="card-text">FEM enriched formulations for solid/liquid phase change problems</p>
-			      <button type="button" class="btn btn-primary" onclick="window.location.href='enrichment.html'">Details</button>
-			  </div>
-		      </div>
-		  </div>
-	      
-		  <div class="col-md-6 col-sm-12 col-lg-4">
-		      <div class="card" style="width: 18rem;">
-			  <div class="img-card-container mx-auto">
-			      <img class="card-img-top" src="public/images/hrom0.png" alt="Gappy-based hyper-reduction methodology" >
-			  </div>
-			  <div class="card-body">
-			      <h5 class="card-title card-project-title">Gappy-based hyper-reduction methodology</h5>
-			      <p class="card-text">A Gappy data reconstruction based hyper-reduction methodology is proposed for highly non-linear problems</p>
-			      <button type="button" class="btn btn-primary" onclick="window.location.href='hrom0.html'">Details</button>
-			  </div>
-		      </div>
-		  </div>
-	      
-		  <div class="col-md-6 col-sm-12 col-lg-4">
-		      <div class="card" style="width: 18rem;">
-			  <div class="img-card-container mx-auto">
-			      <img class="card-img-top" src="public/images/ddm0.png" alt="The FETI domain decomposition method" >
-			  </div>
-			  <div class="card-body">
-			      <h5 class="card-title card-project-title">The FETI domain decomposition method</h5>
-			      <p class="card-text">The parallel versatile implementation of the FETI domain decomposition method is studied</p>
-			      <button type="button" class="btn btn-primary" onclick="window.location.href='feti.html'">Details</button>
-			  </div>
-		      </div>
-		  </div>
-	      
-		  <div class="col-md-6 col-sm-12 col-lg-4">
-		      <div class="card" style="width: 18rem;">
-			  <div class="img-card-container mx-auto">
-			      <img class="card-img-top" src="public/images/globalLocal0.png" alt="Global-Local method" >
-			  </div>
-			  <div class="card-body">
-			      <h5 class="card-title card-project-title">Global-Local method</h5>
-			      <p class="card-text">A Global-Local formulation is proposed for dealing with problems with concentrated moving sources</p>
-			      <button type="button" class="btn btn-primary" onclick="window.location.href='globalLocal0.html'">Details</button>
-			  </div>
-		      </div>
-		  </div>
-	      
-		  <div class="col-md-6 col-sm-12 col-lg-4">
-		      <div class="card" style="width: 18rem;">
-			  <div class="img-card-container mx-auto">
-			      <img class="card-img-top" src="public/images/slmTemp.png" alt="Selective Laser Melting and the material Global-Local method" >
-			  </div>
-			  <div class="card-body">
-			      <h5 class="card-title card-project-title">Selective Laser Melting and the material Global-Local method</h5>
-			      <p class="card-text">The simulation of the Selective Laser Melting process is studied with a material Global-Local method</p>
-			      <button type="button" class="btn btn-primary" onclick="window.location.href='slm.html'">Details</button>
-			  </div>
-		      </div>
-		  </div>
-	      
-		  <div class="col-md-6 col-sm-12 col-lg-4">
-		      <div class="card" style="width: 18rem;">
-			  <div class="img-card-container mx-auto">
-			      <img class="card-img-top" src="public/images/couplingMecanoStar0.png" alt="FSI coupling of Mecano and Star-CCM+" >
-			  </div>
-			  <div class="card-body">
-			      <h5 class="card-title card-project-title">FSI coupling of Mecano and Star-CCM+</h5>
-			      <p class="card-text">An information solution for coupling Mecano and Star-CCM+ for FSI applications is investigated</p>
-			      <button type="button" class="btn btn-primary" onclick="window.location.href='couplingMecanoStar.html'">Details</button>
-			  </div>
-		      </div>
-		  </div>
-	      
-		  
-	  </div>
+	<div class="container" id="projects">
+		<h1 class="display-4 section-title">Projects</h1>
 
-      </div>
+		<p class="text-description-secondary text-left">
+			In what follows, you will find a brief description of
+			the main projects in which I have been involved. Much of
+			the ideas that I present were coded almost entirely by
+			me as extensions of a pre-exiting large Finite Element
+			code written in C++. Unfortunately, this code is
+			proprietary software and I can not share the code I
+			wrote. Nonetheless, approximately at the beginning of 2020 I started writing from scratch a multibody
+			dynamics code named <b style="color: #3DB1FF;">Odin</b> which is able to deal with rigid and flexible bodies
+			as
+			well as problems involving nonsmooth phenomena such as frictional impacts. This code will be available
+			soon as opensource under the Apache2 license, but in the meanwhile you can get to know some of its
+			capabilities by having a look at the preliminary results that I show in what follows. If you want to take an
+			idea of my
+			coding abilities, you can have a look at the code found
+			in my github account that I wrote for experimenting with
+			FETI solvers (a family of linear equations solvers
+			targeting distributed systems). In addition, I can show you the source code of <b
+				style="color: #3DB1FF;">Odin</b> if you ask me so.
+		</p>
 
-      <!-- footer -->
-      <!-- footer -->
+		<div class="row" style="display:flex; flex-wrap: wrap; margin-top:8vmin;">
+
+			
+				<div class="col-md-6 col-sm-12 col-lg-4">
+					<div class="card" style="width: 18rem;">
+						<div class="img-card-container mx-auto">
+							<img class="card-img-top" src="public/images/odin.png" alt="Odin MBS code">
+						</div>
+						<div class="card-body">
+							<h5 class="card-title card-project-title">
+								Odin MBS code
+							</h5>
+							<p class="card-text">
+								Odin: a research code for the simulation of nonsmooth flexible multibody systems
+							</p>
+							<button type="button" class="btn btn-primary"
+								onclick="window.location.href='odin.html'">Details</button>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-6 col-sm-12 col-lg-4">
+					<div class="card" style="width: 18rem;">
+						<div class="img-card-container mx-auto">
+							<img class="card-img-top" src="public/images/twist.jpg" alt="Contact of flexible beams">
+						</div>
+						<div class="card-body">
+							<h5 class="card-title card-project-title">
+								Contact of flexible beams
+							</h5>
+							<p class="card-text">
+								A line contact formulation for flexible beams based on the Mortar method is explored
+							</p>
+							<button type="button" class="btn btn-primary"
+								onclick="window.location.href='beam_contact.html'">Details</button>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-6 col-sm-12 col-lg-4">
+					<div class="card" style="width: 18rem;">
+						<div class="img-card-container mx-auto">
+							<img class="card-img-top" src="public/images/frictional_contact.png" alt="Frictional contact simulations">
+						</div>
+						<div class="card-body">
+							<h5 class="card-title card-project-title">
+								Frictional contact simulations
+							</h5>
+							<p class="card-text">
+								The nonsmooth generalized-&alpha; scheme is extended to problems involving friction
+							</p>
+							<button type="button" class="btn btn-primary"
+								onclick="window.location.href='frictional_contact.html'">Details</button>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-6 col-sm-12 col-lg-4">
+					<div class="card" style="width: 18rem;">
+						<div class="img-card-container mx-auto">
+							<img class="card-img-top" src="public/images/nsga_acc.png" alt="NSGA with acceleration constraints">
+						</div>
+						<div class="card-body">
+							<h5 class="card-title card-project-title">
+								NSGA with acceleration constraints
+							</h5>
+							<p class="card-text">
+								The convenience of using constraints at acceleration level for certain kind of problems is studied
+							</p>
+							<button type="button" class="btn btn-primary"
+								onclick="window.location.href='nsga_acc.html'">Details</button>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-6 col-sm-12 col-lg-4">
+					<div class="card" style="width: 18rem;">
+						<div class="img-card-container mx-auto">
+							<img class="card-img-top" src="public/images/rollingFriction.png" alt="Modeling of sliding and rolling friction">
+						</div>
+						<div class="card-body">
+							<h5 class="card-title card-project-title">
+								Modeling of sliding and rolling friction
+							</h5>
+							<p class="card-text">
+								Preliminary results on the modeling of sliding and rolling friction
+							</p>
+							<button type="button" class="btn btn-primary"
+								onclick="window.location.href='rollingFriction.html'">Details</button>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-6 col-sm-12 col-lg-4">
+					<div class="card" style="width: 18rem;">
+						<div class="img-card-container mx-auto">
+							<img class="card-img-top" src="public/images/cubeSolver.png" alt="A robust nonsmooth generalized-&alpha; scheme">
+						</div>
+						<div class="card-body">
+							<h5 class="card-title card-project-title">
+								A robust nonsmooth generalized-&alpha; scheme
+							</h5>
+							<p class="card-text">
+								A decoupled formulation of the non-smooth generalized-&alpha; scheme is proposed
+							</p>
+							<button type="button" class="btn btn-primary"
+								onclick="window.location.href='solver.html'">Details</button>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-6 col-sm-12 col-lg-4">
+					<div class="card" style="width: 18rem;">
+						<div class="img-card-container mx-auto">
+							<img class="card-img-top" src="public/images/pool.png" alt="Simulation of collisions with multiple impacts">
+						</div>
+						<div class="card-body">
+							<h5 class="card-title card-project-title">
+								Simulation of collisions with multiple impacts
+							</h5>
+							<p class="card-text">
+								The non-smooth generalized-&alpha; scheme is extended to problems with multiple impacts
+							</p>
+							<button type="button" class="btn btn-primary"
+								onclick="window.location.href='multiImpact.html'">Details</button>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-6 col-sm-12 col-lg-4">
+					<div class="card" style="width: 18rem;">
+						<div class="img-card-container mx-auto">
+							<img class="card-img-top" src="public/images/woodpeckerRender.png" alt="Simulation of the woodpecker toy dynamics">
+						</div>
+						<div class="card-body">
+							<h5 class="card-title card-project-title">
+								Simulation of the woodpecker toy dynamics
+							</h5>
+							<p class="card-text">
+								The woodpecker toy is studied using the non-smooth generalized-&alpha; scheme accounting for large rotations, friction and impacts.
+							</p>
+							<button type="button" class="btn btn-primary"
+								onclick="window.location.href='woodpecker.html'">Details</button>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-6 col-sm-12 col-lg-4">
+					<div class="card" style="width: 18rem;">
+						<div class="img-card-container mx-auto">
+							<img class="card-img-top" src="public/images/weldingTM.png" alt="Additive manufacturing">
+						</div>
+						<div class="card-body">
+							<h5 class="card-title card-project-title">
+								Additive manufacturing
+							</h5>
+							<p class="card-text">
+								Thermo-Microstructural simulation of the additive manufacturing process
+							</p>
+							<button type="button" class="btn btn-primary"
+								onclick="window.location.href='welding.html'">Details</button>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-6 col-sm-12 col-lg-4">
+					<div class="card" style="width: 18rem;">
+						<div class="img-card-container mx-auto">
+							<img class="card-img-top" src="public/images/equivalentPlastic.png" alt="Thermo-Mechanical simulation of welding">
+						</div>
+						<div class="card-body">
+							<h5 class="card-title card-project-title">
+								Thermo-Mechanical simulation of welding
+							</h5>
+							<p class="card-text">
+								Thermo-mechanical simulation of welded joints present in nuclear power plants
+							</p>
+							<button type="button" class="btn btn-primary"
+								onclick="window.location.href='welding2.html'">Details</button>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-6 col-sm-12 col-lg-4">
+					<div class="card" style="width: 18rem;">
+						<div class="img-card-container mx-auto">
+							<img class="card-img-top" src="public/images/threadingH.png" alt="Parallel FEM">
+						</div>
+						<div class="card-body">
+							<h5 class="card-title card-project-title">
+								Parallel FEM
+							</h5>
+							<p class="card-text">
+								Parallel implementation of a FE code targeting distributed shared memory architectures
+							</p>
+							<button type="button" class="btn btn-primary"
+								onclick="window.location.href='parallelFEM.html'">Details</button>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-6 col-sm-12 col-lg-4">
+					<div class="card" style="width: 18rem;">
+						<div class="img-card-container mx-auto">
+							<img class="card-img-top" src="public/images/enrichmentFunction.png" alt="FEM enriched formulations">
+						</div>
+						<div class="card-body">
+							<h5 class="card-title card-project-title">
+								FEM enriched formulations
+							</h5>
+							<p class="card-text">
+								FEM enriched formulations for solid/liquid phase change problems
+							</p>
+							<button type="button" class="btn btn-primary"
+								onclick="window.location.href='enrichment.html'">Details</button>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-6 col-sm-12 col-lg-4">
+					<div class="card" style="width: 18rem;">
+						<div class="img-card-container mx-auto">
+							<img class="card-img-top" src="public/images/hrom0.png" alt="Gappy-based hyper-reduction methodology">
+						</div>
+						<div class="card-body">
+							<h5 class="card-title card-project-title">
+								Gappy-based hyper-reduction methodology
+							</h5>
+							<p class="card-text">
+								A Gappy data reconstruction based hyper-reduction methodology is proposed for highly non-linear problems
+							</p>
+							<button type="button" class="btn btn-primary"
+								onclick="window.location.href='hrom0.html'">Details</button>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-6 col-sm-12 col-lg-4">
+					<div class="card" style="width: 18rem;">
+						<div class="img-card-container mx-auto">
+							<img class="card-img-top" src="public/images/ddm0.png" alt="The FETI domain decomposition method">
+						</div>
+						<div class="card-body">
+							<h5 class="card-title card-project-title">
+								The FETI domain decomposition method
+							</h5>
+							<p class="card-text">
+								The parallel versatile implementation of the FETI domain decomposition method is studied
+							</p>
+							<button type="button" class="btn btn-primary"
+								onclick="window.location.href='feti.html'">Details</button>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-6 col-sm-12 col-lg-4">
+					<div class="card" style="width: 18rem;">
+						<div class="img-card-container mx-auto">
+							<img class="card-img-top" src="public/images/globalLocal0.png" alt="Global-Local method">
+						</div>
+						<div class="card-body">
+							<h5 class="card-title card-project-title">
+								Global-Local method
+							</h5>
+							<p class="card-text">
+								A Global-Local formulation is proposed for dealing with problems with concentrated moving sources
+							</p>
+							<button type="button" class="btn btn-primary"
+								onclick="window.location.href='globalLocal0.html'">Details</button>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-6 col-sm-12 col-lg-4">
+					<div class="card" style="width: 18rem;">
+						<div class="img-card-container mx-auto">
+							<img class="card-img-top" src="public/images/slmTemp.png" alt="Selective Laser Melting and the material Global-Local method">
+						</div>
+						<div class="card-body">
+							<h5 class="card-title card-project-title">
+								Selective Laser Melting and the material Global-Local method
+							</h5>
+							<p class="card-text">
+								The simulation of the Selective Laser Melting process is studied with a material Global-Local method
+							</p>
+							<button type="button" class="btn btn-primary"
+								onclick="window.location.href='slm.html'">Details</button>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-6 col-sm-12 col-lg-4">
+					<div class="card" style="width: 18rem;">
+						<div class="img-card-container mx-auto">
+							<img class="card-img-top" src="public/images/couplingMecanoStar0.png" alt="FSI coupling of Mecano and Star-CCM+">
+						</div>
+						<div class="card-body">
+							<h5 class="card-title card-project-title">
+								FSI coupling of Mecano and Star-CCM+
+							</h5>
+							<p class="card-text">
+								An information solution for coupling Mecano and Star-CCM+ for FSI applications is investigated
+							</p>
+							<button type="button" class="btn btn-primary"
+								onclick="window.location.href='couplingMecanoStar.html'">Details</button>
+						</div>
+					</div>
+				</div>
+				
+
+		</div>
+
+	</div>
+
+	<!-- footer -->
+	<!-- footer -->
 <footer>
     <div id="footer-div" style="padding:30px;">
 	<br>
     </div>
 </footer>
 
-            <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
       <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
 
- 
-    </body>
+
+</body>
 
 </html>

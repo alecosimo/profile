@@ -1,42 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-	<% include partials/head %>
-    </head>
+<head>
+	<%- include('partials/head') %>
+</head>
 
-    <body>
+<body>
 	<!-- Navbar -->
 	<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-light bg-color" id="main_navbar">
-	    <div class="container">
-		<a class="navbar-brand" href="index.html">
-		    <img class="brand-img-navbar pull-left" src="public/images/alex-snow.jpeg"/>
-		</a>
-		<ul class="list-prev-links list-inline">
-		    <% if(prevArt) { %>
-			<li class="inline-link-item"><a class="anchor-social-links" href="<%-prevArt.name%>" title="Previous project"><i class="fas fa-chevron-circle-left"></i></a></li>
-		    <%} %>
-		    <% if(nextArt) { %>
-		    <li class="inline-link-item"><a class="anchor-social-links" href="<%-nextArt.name%>" title="Next project"><i class="fas fa-chevron-circle-right"></i></a></li>
-		    <%} %>
-		</ul>
-	    </div>
+		<div class="container">
+			<a class="navbar-brand" href="index.html">
+				<img class="brand-img-navbar pull-left" src="public/images/alex-snow.jpeg" />
+			</a>
+			<ul class="list-prev-links list-inline">
+				<% if(prevArt) { %>
+					<li class="inline-link-item"><a class="anchor-social-links" href="<%-prevArt.name%>"
+							title="Previous project"><i class="fas fa-chevron-circle-left"></i></a></li>
+					<%} %>
+						<% if(nextArt) { %>
+							<li class="inline-link-item"><a class="anchor-social-links" href="<%-nextArt.name%>"
+									title="Next project"><i class="fas fa-chevron-circle-right"></i></a></li>
+							<%} %>
+			</ul>
+		</div>
 	</nav>
 	<div style="margin-top:70px;">
-	    <br>
+		<br>
 	</div>
-	
+
 	<!-- article -->
 	<div class="container article-wrapper" id="<%-article.id%>">
-	    <div class="project-title">
-		<%-article.title%>
-	    </div>
+		<div class="project-title">
+			<%-article.title%>
+		</div>
 
-	    <%-articleBody%>
+		<%-articleBody%>
 	</div>
 
 	<!-- footer -->
-	<% include partials/footer %>
-	<% include partials/footer-js %>
-    </body>
+	<%- include ('partials/footer') %>
+		<%- include ('partials/footer-js') %>
+</body>
+
 </html>

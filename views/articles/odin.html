@@ -1,0 +1,90 @@
+<div class="container text-center">
+    <div class="row">
+        <p class='text-article text-left'>
+            <b style="color: #3DB1FF;">Odin</b> is a research code for the simulation of nonsmooth flexible
+            multibody systems which heavily uses Lie group methods not only for
+            the description of the motion, but also for the time integration and
+            for the spatial discretization of flexible components. <b style="color: #3DB1FF;">Odin</b> will be available
+            soon as opensource code under the Apache2 license.
+        </p>
+    </div>
+
+    <div class="row">
+        <p class='text-article text-left'>
+            I started this code from scratch at the beginning of 2020. It is written in C++17, however, I recently
+            started to use some features of C++20. Some of the features that this code has:
+        </p>
+    </div>
+
+    <div class="row">
+        <ul class="list-unstyled text-article text-left">
+            <ul>
+                <il class="list-group-item">Lie group time integrators for smooth and nonsmooth problems</il>
+                <il class="list-group-item">Kinematic joints: all lower pairs</il>
+                <il class="list-group-item">Flexible elements: a 2-noded SE3 beam element and its n-noded version which
+                    allows
+                    you to choose any
+                    polynomial
+                    order</il>
+                <il class="list-group-item">Nonsmooth monolithic formulations for the contact between rigid and elastic
+                    bodies</il>
+                <il class="list-group-item">Contact between flexible beams</il>
+                <il class="list-group-item">Iterative Gauss-Seidel like solvers for nonsmooth problems available through
+                    the <a href="http://gdaviet.fr/doc/bogus/master/doxygen/">So-Bogus library</a>
+                </il>
+                <il class="list-group-item">Contact detection is available by using the
+                    <a href="https://pybullet.org/wordpress/">Bullet library</a>
+                </il>
+                <il class="list-group-item">Python bindings available by using the <a
+                        href="https://pybind11.readthedocs.io/en/stable/">pybind11 library</a> </il>
+            </ul>
+        </ul>
+    </div>
+
+    <div class="row">
+        <p class='text-article text-left'>
+            Some examples that were solved using <b style="color: #3DB1FF;">Odin</b> follow below.
+        </p>
+    </div>
+
+    <div class="row-section">
+        <p class="text-article secondary-title">Twist of two beams: line contact formulation</p>
+        <div class='video-group'>
+            <iframe class='iframe-video' width='100%' height='' src='https://www.youtube.com/embed/u90UkQj2i2w'
+                allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class="row-section">
+        <p class="text-article secondary-title">Collision of a pyramid of spheres</p>
+        <div class='video-group'>
+            <iframe class='iframe-video' width='100%' height='' src='https://www.youtube.com/embed/0ilIgUU9QXw'
+                allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class="row-section">
+        <p class="text-article secondary-title">Lateral buckling of a thin beam</p>
+        <div class='video-group'>
+            <iframe class='iframe-video' width='100%' height='' src='https://www.youtube.com/embed/nz7xwA8eYyM'
+                allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class="row-section">
+        <p class="text-article secondary-title">Collision of a hollow pyramid of cubes</p>
+        <div class='video-group'>
+            <iframe class='iframe-video' width='100%' height='' src='https://www.youtube.com/embed/1yhYYsUs4iY'
+                allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class="row-section">
+        <p class="text-article secondary-title">Simulation of the Dzhanibekov effect</p>
+        <div class='video-group'>
+            <iframe class='iframe-video' width='100%' height='' src='https://www.youtube.com/embed/xcltfYlthqQ'
+                allowfullscreen></iframe>
+        </div>
+    </div>
+
+</div>
