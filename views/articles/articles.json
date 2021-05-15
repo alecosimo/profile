@@ -21,6 +21,13 @@
 		"id": "17"
 	},
 	{
+		"title": "Grasping: first tests",
+		"description": "The simulation of manipulators grasping objects is explored",
+		"image": "grasping.png",
+		"name": "grasping.html",
+		"id": "19"
+	},
+	{
 		"title": "NSGA with acceleration constraints",
 		"description": "The convenience of using constraints at acceleration level for certain kind of problems is studied",
 		"image": "nsga_acc.png",

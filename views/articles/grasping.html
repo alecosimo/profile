@@ -1,0 +1,31 @@
+<div class="container text-center">
+    <div class="row">
+        <p class='text-article text-left'>
+            <b style="color: #3DB1FF;">Odin</b> uses absolute coordinates for the description of bodies comprising
+            multibody systems. Each of these bodies can interact through contact constraints or be assembled by means of
+            kinematic joints which are modelled as bilateral constraints. When adopting Gauss-Seidel like iterative
+            solvers (the <a href="http://gdaviet.fr/doc/bogus/master/doxygen/">So-Bogus library</a> in our case) for
+            unilateral constraints, we need to come up with a good strategy for dealing with bilateral
+            constraints in such a way that drift is avoided. Therefore, in the current context, the simulation of
+            manipulators grasping objects is quite challenging. In what follows, you will find some advancements that we
+            are doing in this direction: for the moment, the first tests.
+        </p>
+    </div>
+
+    <div class="row-section">
+        <p class="text-article secondary-title">Chinese chopsticks grasping a ball</p>
+        <div class='video-group'>
+            <iframe class='iframe-video' width='100%' height='' src='https://www.youtube.com/embed/mGfyhILR-_g'
+                allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class="row-section">
+        <p class="text-article secondary-title">Chinese chopsticks grasping a cube</p>
+        <div class='video-group'>
+            <iframe class='iframe-video' width='100%' height='' src='https://www.youtube.com/embed/Kd967mLRRR4'
+                allowfullscreen></iframe>
+        </div>
+    </div>
+
+</div>
